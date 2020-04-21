@@ -1,0 +1,29 @@
+{
+  "name": "stop_gaspillage_back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node ./src/index.js",
+    "build": "babel ./ --out-dir dist/ --ignore ./node_modules,./.babelrc,./npm-debug.log --copy-files\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fcm-node": "^1.5.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.3.3",
+    "mongoose": "^5.7.7",
+    "node-cron": "^2.0.3",
+    "nodemon": "^1.19.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
